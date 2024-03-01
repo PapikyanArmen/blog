@@ -1,0 +1,16 @@
+.container {
+  border: 1px solid white;
+  padding: .6rem .8rem;
+  margin-top: 2rem;
+  display: inline-block;
+  border-radius: 3px;
+  &:hover {
+    background-color: #fff;
+    color: black;
+  }
+}
+@media (max-width: 750px) {
+  .container {
+    margin-top: 0;
+  }
+}

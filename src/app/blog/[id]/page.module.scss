@@ -1,0 +1,122 @@
+.main {
+  max-width: 70rem;
+  padding: 4rem;
+  min-height: 100vh;
+  margin: 0 auto;
+}
+
+.banner {
+  width: 25rem;
+  padding-top: 37rem;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.information {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 2rem;
+  width: calc(100% - 27rem);
+  margin-top: 5rem;
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  &_desc {
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+
+  &_team {
+    margin-bottom: 1rem;
+  }
+}
+
+.chips {
+  display: flex;
+  margin-top: 2rem;
+  gap: .5rem;
+  margin-bottom: 2rem;
+}
+
+.comment {
+  margin-top: 2rem;
+  &_list {
+    margin-top: 1rem;
+    li {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 1rem;
+      p {
+        margin-bottom: .5rem;
+        width: 100%;
+      }
+    }
+
+    &_text {
+      font-size: .9rem;
+      line-height: 1.5;
+      margin-top: .3rem;
+      display: block;
+      width: 100%;
+      padding-left: 1rem;
+    }
+
+    &_date {
+      color: gray;
+      font-size: .8rem;
+    }
+  }
+}
+
+.textarea {
+  border: 1px solid white;
+  height: 200px;
+  min-height: 200px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  outline: none;
+  resize: none;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.btn {
+  border: 1px solid white;
+  color: white;
+  font-size: .8rem;
+  background-color: transparent;
+  outline: none;
+  padding: .7rem 1rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  &:disabled {
+    opacity: .7;
+    cursor: no-drop;
+  }
+}
+@media (max-width: 768px) {
+  .banner {
+    width: 18rem;
+    padding-top: 27rem;
+  }
+  .information {
+    width: calc(100% - 20rem);
+    margin-top: 1rem;
+  }
+}
+@media (max-width: 750px) {
+  .main {
+    padding: 1rem;
+  }
+  .information {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+  }
+}
