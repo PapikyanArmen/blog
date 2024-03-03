@@ -74,12 +74,12 @@
 }
 
 .textarea {
-  border: 1px solid white;
+  border: 1px solid rgb(var(--foreground-rgb));
   height: 200px;
   min-height: 200px;
   width: 100%;
   background-color: transparent;
-  color: white;
+  color: rgb(var(--foreground-rgb));
   outline: none;
   resize: none;
   padding: 1rem;
@@ -87,8 +87,8 @@
 }
 
 .btn {
-  border: 1px solid white;
-  color: white;
+  border: 1px solid rgb(var(--foreground-rgb));
+  color: rgb(var(--foreground-rgb));
   font-size: .8rem;
   background-color: transparent;
   outline: none;

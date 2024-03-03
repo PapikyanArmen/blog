@@ -19,7 +19,13 @@
       "name": "The Shawshank Redemption",
       "rating": 9.3,
       "year": 1994,
-      "id": "ut31ykszbvt25x77nha4nq6ro"
+      "id": "ut31ykszbvt25x77nha4nq6ro",
+      "comments": [
+        {
+          "text": "Hi",
+          "date": "2024-03-03T19:28:01.980Z"
+        }
+      ]
     },
     {
       "comment": "New comment",
@@ -5286,7 +5292,13 @@
       "name": "Gone Girl",
       "rating": 8.1,
       "year": 2014,
-      "id": "klvvpoq8e37zo94gfndv2gzuv"
+      "id": "klvvpoq8e37zo94gfndv2gzuv",
+      "comments": [
+        {
+          "text": "Gone",
+          "date": "2024-03-03T20:16:57.169Z"
+        }
+      ]
     },
     {
       "actors": [

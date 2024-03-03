@@ -1,13 +1,14 @@
 .container {
-  border: 1px solid white;
+  border: 1px solid rgb(var(--foreground-rgb));
   padding: .6rem .8rem;
   margin-top: 2rem;
   display: inline-block;
   border-radius: 3px;
-  &:hover {
-    background-color: #fff;
-    color: black;
-  }
+  color: rgb(var(--foreground-rgb));
+  //&:hover {
+  //  background-color: rgb(var(--foreground-rgb));
+  //  color: rgb(var(--foreground-rgb));
+  //}
 }
 @media (max-width: 750px) {
   .container {
