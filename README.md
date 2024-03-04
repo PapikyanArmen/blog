@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run install
+npm install
 
 npm run start
 # or
@@ -15,16 +15,19 @@ pnpm dev
 # or
 bun dev
 ```
-## Running the project automatically running the JSON server 
+## The JSON-server package is used as a temporary BE / DB solution.
+## npm install command installs the dependencies of the project as well as the dependencies of the JSON-server.
+## npm run start command runs the Project (dev server) and the JSON-server simultaneously.
 
-## Installing dev dependencies automatically installed DB dependencies
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser to see the result.
 
 ## Learn More
 
 ## Deploy on Vercel
 
-Project deployed on Vercel and for mock data use IMDB Top 250 movies list
+Pushing code changes to your main branch will trigger an automatic deployment to Vercel's production environment.
+
+The project is deployed on Vercel and uses the IMDB Top 250 movies list for mock data.
 
 You can see on https://blog-six-ruddy-21.vercel.app/
 
